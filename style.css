@@ -24,7 +24,6 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: bold;
 }
 
 /* Changes the color to lilac when hovering over the menu link */
@@ -54,6 +53,7 @@ h1 {
     color: #5920A4;
     text-align: center;
     font-size: 2.5em; 
+    
 }
 
 /* margin around the main section index.html */
@@ -71,6 +71,12 @@ footer {
     text-align: center;
     background-color: #dac6e9;
     padding: 1%; 
+}
+
+/* To remove bullets from list items in the footer */
+footer ul {
+    list-style: none;
+    padding: 0; /* Optionally, remove default padding from the ul */
 }
 
 /* Paragraph styles index.html */
@@ -95,6 +101,7 @@ p {
 
 /* Member card styles members.html */
 .member {
+    background-color: #ebe8ee;
     display: flex;
     align-items: center;
     margin-bottom: 2%; 
