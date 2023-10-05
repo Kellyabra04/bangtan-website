@@ -31,7 +31,6 @@ nav ul li a:hover {
     color: #dcb6e1; 
 }
 
-
 .logo {
     position: absolute;
     left: 0;
@@ -89,6 +88,7 @@ p {
 .p-wrapper p {
     color: #333;
     padding: 3%;
+
 }
 
 /* Wrapper styles index.html */
@@ -153,9 +153,36 @@ p {
     text-align: center;
 }
 
+/* Add this CSS for hover effect on images */
+a img:hover {
+    transform: scale(1.1); /* Increase image size by 10% on hover */
+    transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
+}
+
+/* margin to the headings fancontent.html */
+.margin-heading {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
 @font-face {
     font-family: kanit;
     src: url(kanit/Kanit-Medium.ttf);
     font-weight: normal;
     font-style: normal;
 }
+
+/* Add this CSS to stack images vertically */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align images horizontally */
+}
+
+/* Optional: Add some spacing between the stacked images */
+.image-container a {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+
