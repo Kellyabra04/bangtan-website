@@ -93,11 +93,29 @@ p {
 
 /* Wrapper styles index.html */
 .wrapper {
-    max-width: 800px;
+    max-width: 800px; 
     margin: 0 auto;
     background-color: #F5F5F5;
     padding: 2%; 
 }
+
+/* Styles for the existing wrapper */
+.current-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding: 2%; 
+}
+
+/* Styles for the existing wrapper */
+.new-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    padding: 2%; 
+}
+
+
 
 /* Member card styles members.html */
 .member {
@@ -145,6 +163,8 @@ p {
 .profile-header {
     font-size: 1.8em;
     text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
 }
 
 /* Profile header style (member profiles) members.html */
