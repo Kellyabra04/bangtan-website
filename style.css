@@ -23,12 +23,12 @@ nav ul {
 /* Navigation menu links */
 nav ul li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFFFF; /* Text color for navigation links */
 }
 
 /* Changes the color to lilac when hovering over the menu link */
 nav ul li a:hover {
-    color: #dcb6e1; 
+    color: #dcb6e1; /* Lilac color on hover for an interactive effect. */ 
 }
 
 .logo {
@@ -42,82 +42,77 @@ nav ul li a:hover {
     transition: transform 0.3s; 
 }
  
-/* Scale up the image */
+/* Scale up the image on hover */
 .logo img:hover {
     transform: scale(1.1); 
 }
 
-/* main heading styling index.html */
+/* Main heading styling in index.html */
 h1 {
-    color: #5920A4;
+    color: #5920A4; /* Purple color for the main heading title. */
     text-align: center;
     font-size: 2.5em; 
-    
 }
 
-/* margin around the main section index.html */
+/* Margin around the main section in index.html */
 main section {
     margin: 2%; 
 }
 
-/* styling for h2 elements within the main section index.html */
+/* Styling for h2 elements within the main section in index.html */
 main section h2 {
-    color: #5920A4;
+    color: #5920A4; /* Purple color for subheadings. */
 }
 
-/* Footer styles index.html */
+/* Footer styles in index.html */
 footer {
     text-align: center;
     background-color: #dac6e9;
     padding: 1%; 
 }
 
-/* To remove bullets from list items in the footer */
 footer ul {
-    list-style: none;
-    padding: 0; /* Optionally, remove default padding from the ul */
+    list-style: none; /* Removes bullets from list items in the footer */
+    padding: 0; /* Removes default padding from the ul */
 }
 
-/* Paragraph styles index.html */
+/* Paragraph styles in index.html */
 p {
-    color: #333;
+    color: #333; /* Dark gray text color for paragraphs. */
     padding: 1%; 
 }
 
-/* Paragraph styles index.html */
+/* paragraph style in fancontent.html */
 .p-wrapper p {
-    color: #333;
+    color: #1a191b;
     padding: 3%;
-
 }
 
-/* Wrapper styles index.html */
-.wrapper {
-    max-width: 800px; 
-    margin: 0 auto;
+/* Wrapper style in index.html */
+.home-wrapper {
+    max-width: 800px; /* Set a maximum width for content. */
+    margin: 0 auto; /* Center content horizontally. */
     background-color: #F5F5F5;
     padding: 2%; 
 }
 
-/* Styles for the existing wrapper */
-.current-wrapper {
+/* wrapper style in disco.html */
+.album-wrapper {
     max-width: 1300px;
     margin: 0 auto;
     background-color: #F5F5F5;
     padding: 2%; 
 }
 
-/* Styles for the existing wrapper */
-.new-wrapper {
+/* wrapper style in fancontent.html */
+.fan-wrapper {
     max-width: 1300px;
     margin: 0 auto;
     background-color: #F5F5F5;
     padding: 2%; 
 }
 
-
-
-/* Member card styles members.html */
+/* Member card styles in members.html */
 .member {
     background-color: #ebe8ee;
     display: flex;
@@ -125,7 +120,7 @@ p {
     margin-bottom: 2%; 
 }
 
-/* Member card styles members.html */
+/* Album card styles in disco.html */
 .album {
     display: flex;
     align-items: center;
@@ -134,6 +129,7 @@ p {
     margin-right: 4%;
 }
 
+/* Image in album card styles in members.html */
 .member img {
     max-width: 20%; 
     max-height: 20%; 
@@ -142,6 +138,7 @@ p {
     margin-left: 5%; 
 }
 
+/* Image in album card styles in disco.html */
 .album img {
     max-width: 20%; 
     max-height: 20%; 
@@ -149,42 +146,36 @@ p {
     margin-left: 5%; 
 }
 
-/* Styling for the member information section with flex layout */
+/* Styling for the member information section with flex layout members.html */
 .member-info {
     flex: 1;
 }
 
-/* Styling for the member information section with flex layout */
+/* Styling for the album information section with flex layout disco.html */
 .album-info {
     flex: 1;
 }
 
-/* Profile header style (member profiles) members.html */
+/* Profile header style for member profiles in members.html */
 .profile-header {
     font-size: 1.8em;
     text-align: center;
-    font-size: 2.5em;
     text-decoration: underline;
 }
 
-/* Profile header style (member profiles) members.html */
-.albums-header {
-    font-size: 1.8em;
-    text-align: center;
-}
-
-/* Add this CSS for hover effect on images */
+/* Hover effect on concert images fancontent.html */
 a img:hover {
     transform: scale(1.1); /* Increase image size by 10% on hover */
     transition: transform 0.3s; /* Smooth transition over 0.3 seconds */
 }
 
-/* margin to the headings fancontent.html */
+/* Margin for headings in fancontent.html */
 .margin-heading {
     margin-left: 20px; 
     margin-right: 20px; 
 }
 
+/* Font-face declaration for the 'kanit' font */
 @font-face {
     font-family: kanit;
     src: url(kanit/Kanit-Medium.ttf);
@@ -192,16 +183,61 @@ a img:hover {
     font-style: normal;
 }
 
-/* Add this CSS to stack images vertically */
+/* Stacking concert pic images vertically */
 .image-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align images horizontally */
+    align-items: center; /* Center aligns images horizontally */
 }
 
-/* Optional: Add some spacing between the stacked images */
+/* Adds spacing between the stacked images fancontent.html */
 .image-container a {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 2em; /* Adds a margin of 2 em at the bottom of each stacked image */
+}
+
+/* index.html */
+.bts-logo {
+    max-width: 10em; 
+}
+
+/* index.html */
+.bts-gq {
+    max-width: 50em; 
+}
+
+/* index.html */
+.bts-speech {
+    max-width: 50em; 
+}
+
+/* index.html */
+.bts-awards {
+    max-width: 50em; 
+}
+
+/* members.html */
+.bts-headshots {
+    max-width: 105em; 
+}
+
+/* fancontent.html */
+.ptdstage {
+    width: 60em; 
+}
+
+/* fancontent.html */
+.loveyourselftour {
+    width: 60em; 
+}
+
+/* fancontent.html */
+.japantour {
+    width: 60em; 
+}
+
+/* fancontent.html */
+.bts-variety-shows {
+    max-width: 70em;
 }
 
 
